@@ -1,12 +1,14 @@
 <template>
   <div>
-    <hero-gradient></hero-gradient>
+    <Header></Header>
+
+    <Footer></Footer>
   </div>
 </template>
-
 <style>
-template {
+* {
   margin: 0;
+  padding: 0;
 }
 
 /* linear-gradient(to bottom, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 1) 100%) */
