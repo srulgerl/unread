@@ -181,6 +181,7 @@ export default {};
   padding: 8px 18px;
   background-color: rgba(255, 255, 255, 0.5);
   font-size: 13px;
+  cursor: pointer;
 }
 .social-links {
   color: #fff;
@@ -213,5 +214,29 @@ export default {};
   justify-content: center;
   height: max-content;
   background-color: rgba(255, 255, 255, 0.5);
+}
+.social-icons a:nth-child(1):hover,
+.fa-square-facebook:hover {
+  opacity: 1;
+  color: #475993 !important;
+}
+.social-icons a:nth-child(2):hover,
+.fa-instagram:hover {
+  opacity: 1;
+  color: transparent !important;
+  background: linear-gradient(45deg, #f9ce34, #ee2a7b, #6228d7);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.social-icons a:nth-child(3):hover,
+.fa-twitter:hover {
+  opacity: 1;
+  color: #1da1f2 !important;
+}
+
+.social-icons a:nth-child(4):hover,
+.fa-linkedin-in:hover {
+  opacity: 1;
+  color: #0077b5 !important;
 }
 </style>

@@ -12,7 +12,7 @@
           </div>
           <div class="contentniil">
             <div class="txt">
-              <h6>Хамтран ажжиллах хүсэлт илгээх</h6>
+              <h5>Хамтран ажжиллах хүсэлт илгээх</h5>
               <p>Контент нийлүүлэх</p>
             </div>
             <div>
@@ -21,7 +21,7 @@
           </div>
           <div class="eventhamt">
             <div class="txt">
-              <h6>Хамтран ажиллах хүсэлт илгээх</h6>
+              <h5>Хамтран ажиллах хүсэлт илгээх</h5>
               <p>Эвент хамтрах</p>
             </div>
             <div>
@@ -55,8 +55,8 @@
           <div class="copy-right">
             <p>
               © 2015-2024 Анрид Медиа ХХК. Бүх эрх хуулиар хамгаалагдсан.
-              Контентуудыг зөвшөөрөлгүйгээр болон дурдалгүйгээр нийтлэх, хэвлэх,
-              эш татахыг хориглоно.
+              Контентуудыг <br />зөвшөөрөлгүйгээр болон дурдалгүйгээр нийтлэх,
+              хэвлэх, эш татахыг хориглоно.
             </p>
           </div>
           <div class="bulanguud">
@@ -92,35 +92,27 @@
         </div>
       </div>
       <div class="social-icons">
-        <a
-          style="color: white; opacity: 0.3"
-          href="https://www.facebook.com/UnreadToday/"
-          ><i style="font-size: 33px" class="fa-brands fa-square-facebook"></i>
+        <a style="color: white" href="https://www.facebook.com/UnreadToday/"
+          ><i style="font-size: 34px" class="fa-brands fa-square-facebook"></i>
         </a>
-        <a
-          style="color: white; opacity: 0.3"
-          href="https://twitter.com/UnreadToday"
-          ><i style="font-size: 33px" class="fa-brands fa-twitter"></i
+        <a style="color: white" href="https://twitter.com/UnreadToday"
+          ><i style="font-size: 34px" class="fa-brands fa-twitter"></i
+        ></a>
+        <a style="color: white" href="https://www.instagram.com/unreadtoday/"
+          ><i style="font-size: 34px" class="fa-brands fa-instagram"></i
         ></a>
         <a
-          style="color: white; opacity: 0.3"
-          href="https://www.instagram.com/unreadtoday/"
-          ><i style="font-size: 33px" class="fa-brands fa-instagram"></i
-        ></a>
-        <a
-          style="color: white; opacity: 0.3"
+          style="color: white"
           href="https://www.linkedin.com/company/unreadmedia"
-          ><i style="font-size: 33px" class="fa-brands fa-linkedin-in"></i
+          ><i style="font-size: 34px" class="fa-brands fa-linkedin-in"></i
         ></a>
         <a
-          style="color: white; opacity: 0.3"
+          style="color: white"
           href="https://www.youtube.com/channel/UCfJkXzS4l7Rbq5rRgvHdsKw"
-          ><i style="font-size: 33px" class="fa-brands fa-youtube"></i>
+          ><i style="font-size: 34px" class="fa-brands fa-youtube"></i>
         </a>
-        <a
-          style="color: white; opacity: 0.3"
-          href="https://soundcloud.com/unreadtoday"
-          ><i style="font-size: 33px" class="fa-brands fa-soundcloud"></i>
+        <a style="color: white" href="https://soundcloud.com/unreadtoday"
+          ><i style="font-size: 34px" class="fa-brands fa-soundcloud"></i>
         </a>
       </div>
     </div>
@@ -145,7 +137,7 @@
   position: relative;
   margin: 0 127px;
   padding: 0 35px;
-  height: min-content;
+  height: fit-content;
   display: flex;
   flex-direction: row;
   /* align-items: space-between; */
@@ -156,7 +148,6 @@
   align-items: space-between;
   flex-direction: column;
   width: 600px;
-  height: 403px;
 }
 .logo {
   position: relative;
@@ -168,7 +159,6 @@
 
 .contentniil {
   width: 323px;
-  height: 90px;
   margin-top: 49px;
   border: solid 1px rgb(217, 214, 214);
   border-radius: 18px;
@@ -176,13 +166,46 @@
 }
 .eventhamt {
   width: 323px;
-  height: 90px;
   margin-top: 22px;
   border: solid 1px rgb(195, 192, 192);
   border-radius: 18px;
   cursor: pointer;
 }
-
+.footer-left .contentniil,
+.eventhamt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  flex-direction: row;
+  padding: 21px 80px 27px 28px;
+  width: 215px;
+  height: 42px;
+  color: white;
+}
+.footer-left button {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  top: 50%;
+  transform: translate(0, -50%);
+  border: solid 9px;
+  border-radius: 50%;
+}
+.footer-left .txt {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.txt p {
+  font-size: 1.1em;
+}
+.footer-left h5 {
+  font-weight: 400;
+  opacity: 0.3;
+  letter-spacing: 0.03rem;
+  line-height: 20px;
+}
 .download {
   display: flex;
   flex-direction: row;
@@ -205,7 +228,7 @@
   position: relative;
 
   width: 600px;
-  height: 403px;
+  height: 370px;
   padding-left: 50px;
   margin-left: 50px;
 }
@@ -224,28 +247,37 @@
   width: 600px;
   height: 21px;
 }
-.righ-nav a {
+.right-nav a {
   display: flex;
   align-items: center;
-  padding: 0 10px 0 8px;
   color: white;
+  text-decoration: none;
+  font-size: 1.14em;
 }
-/* .right-nav .b:before,
+.right-nav .b:before,
 .right-nav .c:before,
 .right-nav .d:before {
-  content: ".";
+  content: "•";
   margin: 0 10px 0 8px;
-  font-size: 40px;
+  color: white;
   text-decoration: none;
-} */
-.footer-right > copy-right {
+}
+.right-nav a:hover {
+  opacity: 0.8;
+}
+.b:before:hover,
+.c:before:hover,
+.d:before:hover {
+  opacity: 0.8;
+}
+.footer-right .copy-right {
   margin: 15px 0;
   width: 500px;
   height: 26px;
   color: #878787;
 }
-p.footer-right > copy-right {
-  font-size: 1em !important;
+.copy-right p {
+  font-size: 0.9em !important;
 }
 .footer-right p {
   color: #878787;
@@ -255,6 +287,11 @@ p.footer-right > copy-right {
   justify-content: stretch;
   height: 264px;
   margin-top: 46px;
+}
+.bulanguud a:hover {
+  transform: translate(3px, -2px);
+  transition: all 0.2s ease-in-out;
+  color: #fff;
 }
 .firstcol,
 .seccol,
@@ -295,32 +332,6 @@ p.footer-right > copy-right {
   padding-top: 30px;
 }
 
-.footer-left .contentniil,
-.eventhamt {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  position: relative;
-  flex-direction: row;
-  padding: 21px 80px 27px 28px;
-  width: 215px;
-  height: 42px;
-  color: white;
-}
-.footer-left button {
-  position: absolute;
-  width: 36px;
-  height: 36px;
-  top: 50%;
-  transform: translate(0, -50%);
-  border: solid 9px;
-  border-radius: 50%;
-}
-.footer-left h6 {
-  font-weight: 400;
-  opacity: 0.3;
-  letter-spacing: 0.03rem;
-}
 .footer .social-icons {
   display: flex;
   justify-content: start;
@@ -336,6 +347,7 @@ p.footer-right > copy-right {
   display: flex;
   justify-content: center;
   text-decoration: none;
+  opacity: 0.3;
 }
 .social-icons a:nth-child(1) {
   display: flex;
@@ -344,5 +356,38 @@ p.footer-right > copy-right {
 .social-icons a:nth-child(6) {
   display: flex;
   justify-content: flex-end !important;
+}
+.social-icons a:nth-child(1):hover,
+.fa-square-facebook:hover {
+  opacity: 1;
+  color: #475993 !important;
+}
+.social-icons a:nth-child(2):hover,
+.fa-twitter:hover {
+  opacity: 1;
+  color: #1da1f2 !important;
+}
+.social-icons a:nth-child(3):hover,
+.fa-instagram:hover {
+  opacity: 1;
+  color: transparent !important;
+  background: linear-gradient(45deg, #f9ce34, #ee2a7b, #6228d7);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.social-icons a:nth-child(4):hover,
+.fa-linkedin-in:hover {
+  opacity: 1;
+  color: #0077b5 !important;
+}
+.social-icons a:nth-child(5):hover,
+.fa-youtube:hover {
+  opacity: 1;
+  color: #ff0000 !important;
+}
+.social-icons a:nth-child(6):hover,
+.fa-soundcloud:hover {
+  opacity: 1;
+  color: #ff5500 !important;
 }
 </style>
