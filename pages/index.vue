@@ -12,7 +12,8 @@ definePageMeta({
             class="cover-img"
             src="https://unread.today/files/ab36d712-71ff-4ad9-896e-6ebb29ee892b/1abcefda5c2b24eb8fc96efd54d5e5cc.jpg"
             alt=""
-        /></a>
+          />
+        </a>
       </div>
       <div class="content">
         <div class="lead">
@@ -311,17 +312,146 @@ definePageMeta({
         </div>
       </div>
     </div>
-    <div class="prev-weeks">
-      <div class="prevweek-tab">
-        <div class="oneweek"><a href="">Өнгөрсөн 7 хоногт</a></div>
-        <div class="twoweek">
-          <a href="">03/25-03/31</a>
+    <div class="prev-weeks-container">
+      <div class="prev-weeks">
+        <div class="prevweek-tab">
+          <div class="oneweek aa"><a href="">Өнгөрсөн 7 хоногт</a></div>
+          <div class="twoweek aa">
+            <a href="">03/25 - 03/31</a>
+          </div>
+          <div class="thirweek aa">
+            <a href="">03/18 - 03/24</a>
+          </div>
+          <div class="fourweek aa">
+            <a href="">03/11 - 03/17</a>
+          </div>
         </div>
-        <div class="thirweek">
-          <a href="">03/18-03/24</a>
-        </div>
-        <div class="fourweek">
-          <a href="">03/11-03/17</a>
+        <div class="grid-container">
+          <div class="grid-container-left">
+            <div class="left a">
+              <a href="">
+                <img
+                  class="grid-img a"
+                  src="https://unread.today/files/44/e4207680c14a2d169599922ca8e1948e_square.png"
+                  alt=""
+                />
+                <div class="caption">
+                  <div class="content">
+                    <h6>7 Хоногийн Тойм</h6>
+                    <h4>
+                      Samsung-ийн сэргэлт + Монгол хэлтэй AI + Erxes-ийн амжилт
+                    </h4>
+                  </div>
+                </div></a
+              >
+            </div>
+            <div class="left b">
+              <div class="read"></div>
+              <a href="">
+                <img
+                  class="grid-img b"
+                  src="https://unread.today/files/44/e4207680c14a2d169599922ca8e1948e_square.png"
+                  alt=""
+                />
+                <div class="caption">
+                  <div class="content">
+                    <h6>7 Хоногийн Тойм</h6>
+                    <h4>
+                      Samsung-ийн сэргэлт + Монгол хэлтэй AI + <br />Erxes-ийн
+                      амжилт
+                    </h4>
+                  </div>
+                </div></a
+              >
+            </div>
+            <div class="left c">
+              <a href="">
+                <img
+                  class="grid-img c"
+                  src="https://unread.today/files/44/e4207680c14a2d169599922ca8e1948e_square.png"
+                  alt=""
+                />
+                <div class="caption">
+                  <div class="content">
+                    <h6>7 Хоногийн Тойм</h6>
+                    <h4>
+                      Samsung-ийн сэргэлт + Монгол хэлтэй AI + Erxes-ийн амжилт
+                    </h4>
+                  </div>
+                </div></a
+              >
+            </div>
+          </div>
+          <div class="grid-container-right">
+            <div class="right d">
+              <a href="">
+                <img
+                  class="grid-img d"
+                  src="https://unread.today/files/44/e4207680c14a2d169599922ca8e1948e_square.png"
+                  alt=""
+                />
+                <div class="caption">
+                  <div class="content">
+                    <h6>7 Хоногийн Тойм</h6>
+                    <h4>
+                      Samsung-ийн сэргэлт + Монгол хэлтэй AI + Erxes-ийн амжилт
+                    </h4>
+                  </div>
+                </div></a
+              >
+            </div>
+            <div class="right e">
+              <a href="">
+                <img
+                  class="grid-img e"
+                  src="https://unread.today/files/44/e4207680c14a2d169599922ca8e1948e_square.png"
+                  alt=""
+                />
+                <div class="caption">
+                  <div class="content">
+                    <h6>7 Хоногийн Тойм</h6>
+                    <h4>
+                      Samsung-ийн сэргэлт + Монгол хэлтэй AI + Erxes-ийн амжилт
+                    </h4>
+                  </div>
+                </div></a
+              >
+            </div>
+            <div class="right f">
+              <a href="">
+                <img
+                  class="grid-img f"
+                  src="https://unread.today/files/44/e4207680c14a2d169599922ca8e1948e_square.png"
+                  alt=""
+                />
+                <div class="caption">
+                  <div class="content">
+                    <h6>7 Хоногийн Тойм</h6>
+                    <h4>
+                      Samsung-ийн сэргэлт + Монгол хэлтэй AI + Erxes-ийн амжилт
+                    </h4>
+                  </div>
+                </div></a
+              >
+            </div>
+            <div class="right g">
+              <a href="">
+                <img
+                  class="grid-img f"
+                  src="https://unread.today/files/44/e4207680c14a2d169599922ca8e1948e_square.png"
+                  alt=""
+                />
+                <div class="caption">
+                  <div class="content">
+                    <h6>7 Хоногийн Тойм</h6>
+                    <h4>
+                      Samsung-ийн сэргэлт + Монгол хэлтэй AI + Erxes-ийн амжилт
+                    </h4>
+                  </div>
+                </div></a
+              >
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -329,8 +459,12 @@ definePageMeta({
 </template>
 <style>
 /* 466  */
+* {
+  margin: 0%;
+}
 .container {
   font-family: "SF Display", sans-serif;
+  background-color: #fafafa;
 }
 .head-container {
   margin: 0 127px;
@@ -466,7 +600,6 @@ definePageMeta({
 }
 .container-center .article1 {
   height: 236px;
-  margin-bottom: 44px;
   display: flex;
   flex-direction: column;
 }
@@ -525,6 +658,7 @@ definePageMeta({
   font-size: 12.6px;
   text-decoration: none;
   letter-spacing: 0.03rem;
+  font-weight: 550;
 }
 .container-center .content h6::before {
   content: "•";
@@ -537,7 +671,6 @@ definePageMeta({
 }
 .container-center .content h3 {
   font-size: 21.6px;
-
   margin-bottom: 15px;
   font-weight: 600;
   line-height: 1.7rem;
@@ -565,5 +698,166 @@ definePageMeta({
 }
 .container-article .article1:nth-child(even) .content {
   margin-left: auto;
+}
+.prev-weeks-container {
+  margin: 79px 127px 0 127px;
+  padding: 0 35px;
+  height: 900px;
+  display: block;
+}
+.prev-weeks {
+  height: 60px;
+  margin: 0 0 37px -5px;
+}
+.prev-weeks .prevweek-tab {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-bottom: 37px;
+  border-bottom: solid 1px #ececec;
+
+  opacity: 0.5px;
+}
+.prev-weeks .prevweek-tab .aa {
+  padding: 20px 12px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+}
+.prev-weeks .prevweek-tab .aa a {
+  text-decoration: none;
+  color: #888888;
+  font-size: 13.7px;
+  font-weight: 300;
+  letter-spacing: 0.15px;
+}
+.prev-weeks .prevweek-tab .oneweek {
+  justify-content: flex-start !important;
+  padding: 20px 0;
+}
+.prev-weeks .prevweek-tab .fourweek {
+  justify-content: flex-end !important;
+  /* padding: 20px 0; */
+}
+.prev-weeks .prevweek-tab a:active {
+  color: #0078f6;
+}
+.prev-weeks .grid-container {
+  display: flex;
+  flex-direction: row;
+  padding-top: 19px;
+}
+.prev-weeks .grid-container-left {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 5px;
+  gap: 19px;
+  /* grid-template-columns: auto auto auto auto auto auto; */
+}
+.prev-weeks .grid-container-right {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 19px;
+  padding-left: 19px;
+}
+/* .prev-weeks .grid-container .right {
+  height: 272px;
+} */
+
+.prev-weeks .grid-container .a {
+  width: 549px;
+  grid-column: span 2;
+  height: 361px;
+}
+
+.prev-weeks .grid-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+  margin: 0;
+}
+.prev-weeks .grid-container .b,
+.prev-weeks .grid-container .c {
+  width: 265px;
+  height: 234px;
+
+  border-radius: 10px;
+}
+
+.prev-weeks .grid-container .d,
+.prev-weeks .grid-container .e {
+  width: 265px;
+  height: 271px;
+  border-radius: 10px;
+}
+
+.prev-weeks .grid-container .f,
+.prev-weeks .grid-container .g {
+  width: 265px;
+  height: 323px;
+  border-radius: 10px;
+}
+
+/* .grid-container-left .a .caption {
+  position: fixed;
+  bottom: ;
+  height: 107px;
+  background-color: transparent;
+  margin: 0;
+} */
+
+.grid-container-left .a,
+.b,
+.c,
+.d,
+.e,
+.f,
+.g {
+  position: relative;
+}
+
+.grid-container-left .a .caption {
+  height: 107px !important;
+  padding: 16px 23px 10px 23px !important;
+}
+.grid-container-left .a .caption,
+.grid-container-left .b .caption,
+.grid-container-left .c .caption,
+.grid-container-right .d .caption,
+.grid-container-right .e .caption,
+.grid-container-right .f .caption,
+.grid-container-right .g .caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  color: white;
+  box-sizing: border-box;
+  height: 92px;
+  padding: 10px 23px;
+  backdrop-filter: blur(4.2px);
+  background-color: rgba(0, 0, 0, 0.144);
+
+  border-radius: 10px;
+  float: left;
+}
+
+.grid-container .caption h6 {
+  font-size: 12.6px;
+  font-weight: 300;
+  color: #c5c5c5;
+}
+.grid-container .caption h4 {
+  font-size: 16.2px;
+  font-weight: 600;
+  -webkit-font-smoothing: antialiased;
+  color: #fff;
+  height: 40px;
+  margin: 3px 0 0 0;
+  overflow: hidden;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0, 0.004);
+  letter-spacing: 0.015rem;
 }
 </style>
