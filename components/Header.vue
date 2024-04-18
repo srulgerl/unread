@@ -1,5 +1,3 @@
-import type { setBlockTracking } from 'vue'; import type { setBlockTracking }
-from 'vue'; import type { setBlockTracking } from 'vue'; import type
 <script>
 export default {};
 </script>
@@ -32,10 +30,8 @@ export default {};
           </div>
         </div>
         <div class="content">
-          <span style="opacity: 0.5; color: rgb(255, 255, 255)"
-            >Дараагийн нийтлэл:</span
-          >
-          <span style="margin-left: 5px; color: rgb(255, 255, 255)"
+          <span style="opacity: 0.5; color: #fff">Дараагийн нийтлэл:</span>
+          <span style="margin-left: 5px; color: #fff; font-weight: 300"
             >Мэдүүштэй</span
           >
           <a class="chip">Маргааш орно</a>
@@ -60,9 +56,14 @@ export default {};
 </template>
 <style>
 .header-container {
-  background-color: rgb(144, 144, 144);
+  position: absolute;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
 }
 .header {
+  position: absolute;
   display: flex;
   align-items: center;
   /* justify-content: space-around; */
@@ -77,7 +78,6 @@ export default {};
   justify-content: space-between;
   width: 19px;
   height: 19px;
-
   left: 0;
   right: 0;
   position: absolute;
@@ -87,8 +87,7 @@ export default {};
   width: 19px;
   height: 3.5px;
   border-radius: 10px;
-
-  background-color: rgb(255, 255, 255);
+  background-color: white;
 }
 .menu-line:nth-child(1) {
   top: 0;
@@ -159,6 +158,7 @@ export default {};
   font: inherit;
   width: 120px;
   height: 30px;
+  color: #fff;
 }
 
 .content {

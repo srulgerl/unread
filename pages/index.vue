@@ -5,44 +5,52 @@ definePageMeta({
 </script>
 <template>
   <div class="container">
-    <div class="head-container">
-      <div class="position-cover">
-        <a href=""
-          ><img
-            class="cover-img"
-            src="https://unread.today/files/ab36d712-71ff-4ad9-896e-6ebb29ee892b/1abcefda5c2b24eb8fc96efd54d5e5cc.jpg"
-            alt=""
-          />
-        </a>
-      </div>
-      <div class="content">
-        <div class="lead">
-          <h4>шинэ</h4>
-        </div>
-        <div class="title">
-          <div class="category">
-            <h1>чөлөөт</h1>
-          </div>
-          <br />
-          <div class="real-title">
-            <a href=""><h1>бид яагаад даваа гарагаас айдаг вэ?</h1></a>
-          </div>
-        </div>
-        <div class="author">
+    <div class="outer">
+      <div class="head-container">
+        <div class="position-cover">
           <a href=""
             ><img
-              class="author-img"
-              src="https://unread.today/files/profile/28e7a237c46d3ead44c9f507094c922b.jpg"
+              class="cover-img"
+              src="https://unread.today/files/969a1aed-77a4-45e9-b7b7-3ee2709aaf31/98d2b676734521b69821418a435961ee.jpg"
               alt=""
-          /></a>
-          <div class="prof">
-            <a href=""><p>Burtguljin Enkhbat</p></a>
-            <p>4 сарын 14,2024 • 1 мин</p>
+            />
+          </a>
+        </div>
+        <div class="content">
+          <div class="lead">
+            <h4>шинэ</h4>
           </div>
+          <div class="title">
+            <div class="category">
+              <h1>Мэдүүштэй</h1>
+            </div>
+            <br />
+            <div class="real-title">
+              <a href=""
+                ><h1>
+                  “SciCon 2024: Айсуй найдвар” арга хэмжээг дэлгэрэнгүй тоймлох
+                  нь
+                </h1></a
+              >
+            </div>
+          </div>
+          <Author></Author>
+          <!-- <div class="author">
+            <a href=""
+              ><img
+                class="author-img"
+                src="https://unread.today/files/profile/28e7a237c46d3ead44c9f507094c922b.jpg"
+                alt=""
+            /></a>
+            <div class="prof">
+              <a href=""><p>Burtguljin Enkhbat</p></a>
+              <p>4 сарын 14,2024 • 1 мин</p>
+            </div>
+          </div> -->
         </div>
       </div>
     </div>
-    <div class="editors-choice">
+    <!-- <div class="editors-choice">
       <div class="head">
         <p>Редакцын сонголт</p>
       </div>
@@ -55,7 +63,7 @@ definePageMeta({
           </ul>
         </div>
       </div>
-    </div>
+    </div> -->
     <div class="container-center">
       <div class="container-article">
         <div class="article1">
@@ -70,22 +78,27 @@ definePageMeta({
               <p>4 сарын 13,2024 • 7 мин</p>
             </div>
           </div>
-          <div class="content">
-            <div class="title">
-              <h6><a href="">Тогтвортой хөгжил</a></h6>
-              <h3>
-                <a href="">Coldplay хамтлагийн байгальд ээлтэй аялан тоглолт</a>
-              </h3>
+          <nuxt-link to="/c/:name">
+            <div class="content">
+              <div class="title">
+                <h6><a href="">Тогтвортой хөгжил</a></h6>
+                <h3>
+                  <a href=""
+                    >Coldplay хамтлагийн байгальд ээлтэй аялан тоглолт</a
+                  >
+                </h3>
+              </div>
+              <div class="article-img">
+                <a href=""
+                  ><img
+                    src="https://unread.today/files/2f1c26d7-6f24-46c8-9307-bbfecc8b41b1/a5d88da5e40fbd813500ce2b4f8cc986_square.png"
+                    alt=""
+                /></a>
+              </div>
             </div>
-            <div class="article-img">
-              <a href=""
-                ><img
-                  src="https://unread.today/files/2f1c26d7-6f24-46c8-9307-bbfecc8b41b1/a5d88da5e40fbd813500ce2b4f8cc986_square.png"
-                  alt=""
-              /></a>
-            </div>
-          </div>
+          </nuxt-link>
         </div>
+
         <div class="article1">
           <div class="author">
             <a href=""
@@ -98,6 +111,28 @@ definePageMeta({
               <p>4 сарын 13,2024 • 7 мин</p>
             </div>
           </div>
+          <nuxt-link to="/c/:name">
+            <div class="content">
+              <div class="title">
+                <h6><a href="">Тогтвортой хөгжил</a></h6>
+                <h3>
+                  <a href=""
+                    >Coldplay хамтлагийн байгальд ээлтэй аялан тоглолт</a
+                  >
+                </h3>
+              </div>
+              <div class="article-img">
+                <a href=""
+                  ><img
+                    src="https://unread.today/files/2f1c26d7-6f24-46c8-9307-bbfecc8b41b1/a5d88da5e40fbd813500ce2b4f8cc986_square.png"
+                    alt=""
+                /></a>
+              </div>
+            </div>
+          </nuxt-link>
+        </div>
+        <div class="article1">
+          <Author></Author>
           <div class="content">
             <div class="title">
               <h6><a href="">Тогтвортой хөгжил</a></h6>
@@ -116,71 +151,7 @@ definePageMeta({
         </div>
         <div class="article1">
           <div class="author">
-            <a href=""
-              ><img
-                src="https://unread.today/files/profile/00b063d23a6c69f2b1482fa084fddbf5.jpg"
-                alt=""
-            /></a>
-            <div class="prof">
-              <a href="">Unread Today</a>
-              <p>4 сарын 13,2024 • 7 мин</p>
-            </div>
-          </div>
-          <div class="content">
-            <div class="title">
-              <h6><a href="">Тогтвортой хөгжил</a></h6>
-              <h3>
-                <a href="">Coldplay хамтлагийн байгальд ээлтэй аялан тоглолт</a>
-              </h3>
-            </div>
-            <div class="article-img">
-              <a href=""
-                ><img
-                  src="https://unread.today/files/2f1c26d7-6f24-46c8-9307-bbfecc8b41b1/a5d88da5e40fbd813500ce2b4f8cc986_square.png"
-                  alt=""
-              /></a>
-            </div>
-          </div>
-        </div>
-        <div class="article1">
-          <div class="author">
-            <a href=""
-              ><img
-                src="https://unread.today/files/profile/00b063d23a6c69f2b1482fa084fddbf5.jpg"
-                alt=""
-            /></a>
-            <div class="prof">
-              <a href="">Unread Today</a>
-              <p>4 сарын 13,2024 • 7 мин</p>
-            </div>
-          </div>
-          <div class="content">
-            <div class="title">
-              <h6><a href="">Тогтвортой хөгжил</a></h6>
-              <h3>
-                <a href="">Coldplay хамтлагийн байгальд ээлтэй аялан тоглолт</a>
-              </h3>
-            </div>
-            <div class="article-img">
-              <a href=""
-                ><img
-                  src="https://unread.today/files/2f1c26d7-6f24-46c8-9307-bbfecc8b41b1/a5d88da5e40fbd813500ce2b4f8cc986_square.png"
-                  alt=""
-              /></a>
-            </div>
-          </div>
-        </div>
-        <div class="article1">
-          <div class="author">
-            <a href=""
-              ><img
-                src="https://unread.today/files/profile/00b063d23a6c69f2b1482fa084fddbf5.jpg"
-                alt=""
-            /></a>
-            <div class="prof">
-              <a href="">Unread Today</a>
-              <p>4 сарын 13,2024 • 7 мин</p>
-            </div>
+            <Author></Author>
           </div>
           <div class="content">
             <div class="title">
@@ -200,15 +171,7 @@ definePageMeta({
         </div>
         <div class="article1">
           <div class="author">
-            <a href=""
-              ><img
-                src="https://unread.today/files/profile/00b063d23a6c69f2b1482fa084fddbf5.jpg"
-                alt=""
-            /></a>
-            <div class="prof">
-              <a href="">Unread Today</a>
-              <p>4 сарын 13,2024 • 7 мин</p>
-            </div>
+            <Author></Author>
           </div>
           <div class="content">
             <div class="title">
@@ -228,15 +191,7 @@ definePageMeta({
         </div>
         <div class="article1">
           <div class="author">
-            <a href=""
-              ><img
-                src="https://unread.today/files/profile/00b063d23a6c69f2b1482fa084fddbf5.jpg"
-                alt=""
-            /></a>
-            <div class="prof">
-              <a href="">Unread Today</a>
-              <p>4 сарын 13,2024 • 7 мин</p>
-            </div>
+            <Author></Author>
           </div>
           <div class="content">
             <div class="title">
@@ -255,17 +210,7 @@ definePageMeta({
           </div>
         </div>
         <div class="article1">
-          <div class="author">
-            <a href=""
-              ><img
-                src="https://unread.today/files/profile/00b063d23a6c69f2b1482fa084fddbf5.jpg"
-                alt=""
-            /></a>
-            <div class="prof">
-              <a href="">Unread Today</a>
-              <p>4 сарын 13,2024 • 7 мин</p>
-            </div>
-          </div>
+          <Author></Author>
           <div class="content">
             <div class="title">
               <h6><a href="">Тогтвортой хөгжил</a></h6>
@@ -283,17 +228,25 @@ definePageMeta({
           </div>
         </div>
         <div class="article1">
-          <div class="author">
-            <a href=""
-              ><img
-                src="https://unread.today/files/profile/00b063d23a6c69f2b1482fa084fddbf5.jpg"
-                alt=""
-            /></a>
-            <div class="prof">
-              <a href="">Unread Today</a>
-              <p>4 сарын 13, 2024 • 7 мин</p>
+          <Author></Author>
+          <div class="content">
+            <div class="title">
+              <h6><a href="">Тогтвортой хөгжил</a></h6>
+              <h3>
+                <a href="">Coldplay хамтлагийн байгальд ээлтэй аялан тоглолт</a>
+              </h3>
+            </div>
+            <div class="article-img">
+              <a href=""
+                ><img
+                  src="https://unread.today/files/2f1c26d7-6f24-46c8-9307-bbfecc8b41b1/a5d88da5e40fbd813500ce2b4f8cc986_square.png"
+                  alt=""
+              /></a>
             </div>
           </div>
+        </div>
+        <div class="article1">
+          <Author></Author>
           <div class="content">
             <div class="title">
               <h6><a href="">Тогтвортой хөгжил</a></h6>
@@ -458,17 +411,31 @@ definePageMeta({
   </div>
 </template>
 <style>
-/* 466  */
-* {
-  margin: 0%;
-}
 .container {
   font-family: "SF Display", sans-serif;
-  background-color: #fafafa;
+
+  margin: 0;
+}
+.outer::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://unread.today/files/969a1aed-77a4-45e9-b7b7-3ee2709aaf31/6061957ab3361eb7d70aee9b7980505f.png");
+  background-size: cover;
+}
+.outer {
+  position: relative;
+
+  /* background: linear-gradient(rgba(0, 0, 0, 0.9), black); */
 }
 .head-container {
+  position: relative;
   margin: 0 127px;
-  padding: 36px 35px 63px 35px;
+  padding: 120px 35px 63px 35px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -489,22 +456,23 @@ definePageMeta({
   justify-content: flex-end;
   flex-direction: column;
   padding: 45px 0 0 61px;
+  font-family: "SF Display", Helvetica, Arial, sans-serif;
 }
 .head-container .content .lead {
   font-size: 1.44rem;
 
-  color: black;
+  color: rgb(255, 255, 255);
   height: 39px;
   color: #0078f6;
 }
 .head-container .content .title {
   font-family: "SF Display", sans-serif;
   text-transform: uppercase;
-  font-weight: 900px;
+  font-weight: 900;
   font-size: 1rem;
   /* font-size: 30px; */
 
-  color: black;
+  color: white;
   display: flex;
   flex-direction: column;
 }
@@ -516,18 +484,24 @@ definePageMeta({
   flex-wrap: wrap;
   line-height: normal;
   font-size: 17px;
-  font-weight: bold;
+  font-weight: 400;
   margin-bottom: 54px;
   letter-spacing: 0.07rem;
   font-stretch: 100%;
 }
 .content .title .real-title a {
-  color: rgb(0, 0, 0);
+  color: white;
   text-decoration: none;
+  font-weight: 500;
+}
+.content .title .real-title h1 {
+  font-family: "SF Display", sans-serif;
+  font-size: 34px;
+  font-weight: 700;
 }
 .head-container .content .author {
   position: relative;
-  color: black;
+  color: white;
   display: flex;
   flex-direction: row;
 }
@@ -545,7 +519,7 @@ definePageMeta({
 .head-container .content .author .prof a {
   font-weight: 700;
   text-decoration: none;
-  color: black;
+  color: white;
   border-radius: solid 1px white;
   opacity: 0.3;
 }
@@ -603,7 +577,6 @@ definePageMeta({
   display: flex;
   flex-direction: column;
 }
-
 .container-center .author {
   position: relative;
   color: black;
@@ -634,6 +607,10 @@ definePageMeta({
   color: #888888;
   font-size: 0.8rem;
 }
+.container-center .author .prof p:hover {
+  transform: translate(0, -5px);
+  transition: all 0.2s ease-in-out;
+}
 .container-center .content {
   width: 623px;
   padding: 28px 65px 20px 51px;
@@ -648,11 +625,19 @@ definePageMeta({
   letter-spacing: 0.015rem;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
-.container-center .content:hover {
-  transform: translate(-2ps, 2px);
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+.container-center .content .title {
+  text-decoration: none;
 }
-
+.container-center .content:hover {
+  transform: translate(0, -5px);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: all 0.2s ease-in-out;
+}
+/* .container-center .author:hover {
+  transform: translate(0, -5px);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: all 0.2s ease-in-out;
+} */
 .container-center .content h6 > a {
   color: #0078f6;
   font-size: 12.6px;
@@ -702,8 +687,8 @@ definePageMeta({
 .prev-weeks-container {
   margin: 79px 127px 0 127px;
   padding: 0 35px;
-  height: 900px;
   display: block;
+  height: 750px;
 }
 .prev-weeks {
   height: 60px;
@@ -739,7 +724,7 @@ definePageMeta({
   justify-content: flex-end !important;
   /* padding: 20px 0; */
 }
-.prev-weeks .prevweek-tab a:active {
+.prev-weeks .prevweek-tab a:hover {
   color: #0078f6;
 }
 .prev-weeks .grid-container {
@@ -768,6 +753,7 @@ definePageMeta({
   width: 549px;
   grid-column: span 2;
   height: 361px;
+  border-radius: 10px;
 }
 
 .prev-weeks .grid-container img {
@@ -777,11 +763,17 @@ definePageMeta({
   border-radius: 15px;
   margin: 0;
 }
+.prev-weeks .grid-container .left:hover,
+.prev-weeks .grid-container .right:hover {
+  transform: translate(0, -5px);
+  box-shadow: 0px 0px 66px 20px rgba(0, 0, 0, 0.1),
+    0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease-in-out;
+}
 .prev-weeks .grid-container .b,
 .prev-weeks .grid-container .c {
   width: 265px;
   height: 234px;
-
   border-radius: 10px;
 }
 

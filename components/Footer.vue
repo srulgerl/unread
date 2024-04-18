@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+    <div class="footer-top"></div>
     <div class="footer">
       <div class="footer-content">
         <div class="footer-left">
@@ -127,6 +128,15 @@
   font-size: 12.6px;
   font-stretch: 100%;
 }
+.container .footer-top {
+  position: relative;
+  top: -130px;
+  float: auto;
+  height: 82px;
+  background-color: #fafafa;
+  border-radius: 0 0 36px 36px;
+  z-index: 1;
+}
 .footer {
   position: relative;
   background-color: rgb(0, 0, 0);
@@ -135,9 +145,9 @@
 }
 .footer-content {
   position: relative;
+  top: 0;
   margin: 0 127px;
   padding: 0 35px;
-  height: fit-content;
   display: flex;
   flex-direction: row;
   /* align-items: space-between; */
@@ -151,7 +161,6 @@
 }
 .logo {
   position: relative;
-
   margin: 0;
   width: 134px;
   height: 18px;
@@ -285,7 +294,7 @@
 .bulanguud {
   display: flex;
   justify-content: stretch;
-  height: 264px;
+  /* height: 264px; */
   margin-top: 46px;
 }
 .bulanguud a:hover {
