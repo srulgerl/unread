@@ -34,234 +34,121 @@ definePageMeta({
               >
             </div>
           </div>
-          <Author></Author>
-          <!-- <div class="author">
-            <a href=""
-              ><img
-                class="author-img"
-                src="https://unread.today/files/profile/28e7a237c46d3ead44c9f507094c922b.jpg"
-                alt=""
-            /></a>
-            <div class="prof">
-              <a href=""><p>Burtguljin Enkhbat</p></a>
-              <p>4 сарын 14,2024 • 1 мин</p>
-            </div>
-          </div> -->
+          <div class="author">
+            <Author></Author>
+          </div>
         </div>
       </div>
     </div>
-    <!-- <div class="editors-choice">
+    <div class="editors-choice">
       <div class="head">
         <p>Редакцын сонголт</p>
+        <span class="button"></span>
       </div>
-      <div class="editors-slider">
-        <div class="slider">
-          <ul>
-            <li>
-              <a href=""><img src="" alt="" /></a>
-            </li>
-          </ul>
-        </div>
+      <div class="slider">
+        <ul>
+          <li>
+            <a href="">
+              <img
+                src="https://unread.today/files/007afc64-288a-4208-b9d7-3eda84011c1d/633d11ffbbd952de3c0db6eece0756c4_square.jpg"
+                alt=""
+              />
+              <div class="caption">
+                <div class="content">
+                  <div class="lead"></div>
+
+                  <h4>Сансарын төлөөх сансрын тулаанд хэн ялах вэ?</h4>
+                </div>
+              </div></a
+            >
+          </li>
+          <li>
+            <a href="">
+              <img
+                src="https://unread.today/files/007afc64-288a-4208-b9d7-3eda84011c1d/633d11ffbbd952de3c0db6eece0756c4_square.jpg"
+                alt=""
+            /></a>
+          </li>
+          <li>
+            <a href="">
+              <img
+                src="https://unread.today/files/007afc64-288a-4208-b9d7-3eda84011c1d/633d11ffbbd952de3c0db6eece0756c4_square.jpg"
+                alt=""
+            /></a>
+          </li>
+          <li>
+            <a href="">
+              <img
+                src="https://unread.today/files/007afc64-288a-4208-b9d7-3eda84011c1d/633d11ffbbd952de3c0db6eece0756c4_square.jpg"
+                alt=""
+            /></a>
+          </li>
+          <li>
+            <a href="">
+              <img
+                src="https://unread.today/files/007afc64-288a-4208-b9d7-3eda84011c1d/633d11ffbbd952de3c0db6eece0756c4_square.jpg"
+                alt=""
+            /></a>
+          </li>
+        </ul>
       </div>
-    </div> -->
+    </div>
+
     <div class="container-center">
       <div class="container-article">
         <div class="article1">
           <div class="author">
-            <a href=""
-              ><img
-                src="https://unread.today/files/profile/00b063d23a6c69f2b1482fa084fddbf5.jpg"
-                alt=""
-            /></a>
-            <div class="prof">
-              <a href="">Unread Today</a>
-              <p>4 сарын 13,2024 • 7 мин</p>
-            </div>
+            <Author></Author>
           </div>
-          <nuxt-link to="/c/:name">
-            <div class="content">
-              <div class="title">
-                <h6><a href="">Тогтвортой хөгжил</a></h6>
-                <h3>
-                  <a href=""
-                    >Coldplay хамтлагийн байгальд ээлтэй аялан тоглолт</a
-                  >
-                </h3>
-              </div>
-              <div class="article-img">
-                <a href=""
-                  ><img
-                    src="https://unread.today/files/2f1c26d7-6f24-46c8-9307-bbfecc8b41b1/a5d88da5e40fbd813500ce2b4f8cc986_square.png"
-                    alt=""
-                /></a>
-              </div>
-            </div>
-          </nuxt-link>
-        </div>
-
-        <div class="article1">
-          <div class="author">
-            <a href=""
-              ><img
-                src="https://unread.today/files/profile/00b063d23a6c69f2b1482fa084fddbf5.jpg"
-                alt=""
-            /></a>
-            <div class="prof">
-              <a href="">Unread Today</a>
-              <p>4 сарын 13,2024 • 7 мин</p>
-            </div>
-          </div>
-          <nuxt-link to="/c/:name">
-            <div class="content">
-              <div class="title">
-                <h6><a href="">Тогтвортой хөгжил</a></h6>
-                <h3>
-                  <a href=""
-                    >Coldplay хамтлагийн байгальд ээлтэй аялан тоглолт</a
-                  >
-                </h3>
-              </div>
-              <div class="article-img">
-                <a href=""
-                  ><img
-                    src="https://unread.today/files/2f1c26d7-6f24-46c8-9307-bbfecc8b41b1/a5d88da5e40fbd813500ce2b4f8cc986_square.png"
-                    alt=""
-                /></a>
-              </div>
-            </div>
-          </nuxt-link>
-        </div>
-        <div class="article1">
-          <Author></Author>
-          <div class="content">
-            <div class="title">
-              <h6><a href="">Тогтвортой хөгжил</a></h6>
-              <h3>
-                <a href="">Coldplay хамтлагийн байгальд ээлтэй аялан тоглолт</a>
-              </h3>
-            </div>
-            <div class="article-img">
-              <a href=""
-                ><img
-                  src="https://unread.today/files/2f1c26d7-6f24-46c8-9307-bbfecc8b41b1/a5d88da5e40fbd813500ce2b4f8cc986_square.png"
-                  alt=""
-              /></a>
-            </div>
-          </div>
+          <Article></Article>
         </div>
         <div class="article1">
           <div class="author">
             <Author></Author>
           </div>
-          <div class="content">
-            <div class="title">
-              <h6><a href="">Тогтвортой хөгжил</a></h6>
-              <h3>
-                <a href="">Coldplay хамтлагийн байгальд ээлтэй аялан тоглолт</a>
-              </h3>
-            </div>
-            <div class="article-img">
-              <a href=""
-                ><img
-                  src="https://unread.today/files/2f1c26d7-6f24-46c8-9307-bbfecc8b41b1/a5d88da5e40fbd813500ce2b4f8cc986_square.png"
-                  alt=""
-              /></a>
-            </div>
-          </div>
+          <Article></Article>
         </div>
         <div class="article1">
           <div class="author">
             <Author></Author>
           </div>
-          <div class="content">
-            <div class="title">
-              <h6><a href="">Тогтвортой хөгжил</a></h6>
-              <h3>
-                <a href="">Coldplay хамтлагийн байгальд ээлтэй аялан тоглолт</a>
-              </h3>
-            </div>
-            <div class="article-img">
-              <a href=""
-                ><img
-                  src="https://unread.today/files/2f1c26d7-6f24-46c8-9307-bbfecc8b41b1/a5d88da5e40fbd813500ce2b4f8cc986_square.png"
-                  alt=""
-              /></a>
-            </div>
-          </div>
+          <Article></Article>
         </div>
         <div class="article1">
           <div class="author">
             <Author></Author>
           </div>
-          <div class="content">
-            <div class="title">
-              <h6><a href="">Тогтвортой хөгжил</a></h6>
-              <h3>
-                <a href="">Coldplay хамтлагийн байгальд ээлтэй аялан тоглолт</a>
-              </h3>
-            </div>
-            <div class="article-img">
-              <a href=""
-                ><img
-                  src="https://unread.today/files/2f1c26d7-6f24-46c8-9307-bbfecc8b41b1/a5d88da5e40fbd813500ce2b4f8cc986_square.png"
-                  alt=""
-              /></a>
-            </div>
-          </div>
+          <Article></Article>
         </div>
         <div class="article1">
-          <Author></Author>
-          <div class="content">
-            <div class="title">
-              <h6><a href="">Тогтвортой хөгжил</a></h6>
-              <h3>
-                <a href="">Coldplay хамтлагийн байгальд ээлтэй аялан тоглолт</a>
-              </h3>
-            </div>
-            <div class="article-img">
-              <a href=""
-                ><img
-                  src="https://unread.today/files/2f1c26d7-6f24-46c8-9307-bbfecc8b41b1/a5d88da5e40fbd813500ce2b4f8cc986_square.png"
-                  alt=""
-              /></a>
-            </div>
+          <div class="author">
+            <Author></Author>
           </div>
+          <Article></Article>
         </div>
         <div class="article1">
-          <Author></Author>
-          <div class="content">
-            <div class="title">
-              <h6><a href="">Тогтвортой хөгжил</a></h6>
-              <h3>
-                <a href="">Coldplay хамтлагийн байгальд ээлтэй аялан тоглолт</a>
-              </h3>
-            </div>
-            <div class="article-img">
-              <a href=""
-                ><img
-                  src="https://unread.today/files/2f1c26d7-6f24-46c8-9307-bbfecc8b41b1/a5d88da5e40fbd813500ce2b4f8cc986_square.png"
-                  alt=""
-              /></a>
-            </div>
+          <div class="author">
+            <Author></Author>
           </div>
+          <Article></Article>
         </div>
         <div class="article1">
-          <Author></Author>
-          <div class="content">
-            <div class="title">
-              <h6><a href="">Тогтвортой хөгжил</a></h6>
-              <h3>
-                <a href="">Coldplay хамтлагийн байгальд ээлтэй аялан тоглолт</a>
-              </h3>
-            </div>
-            <div class="article-img">
-              <a href=""
-                ><img
-                  src="https://unread.today/files/2f1c26d7-6f24-46c8-9307-bbfecc8b41b1/a5d88da5e40fbd813500ce2b4f8cc986_square.png"
-                  alt=""
-              /></a>
-            </div>
+          <div class="author">
+            <Author></Author>
           </div>
+          <Article></Article>
+        </div>
+        <div class="article1">
+          <div class="author">
+            <Author></Author>
+          </div>
+          <Article></Article>
+        </div>
+        <div class="article1">
+          <div class="author">
+            <Author></Author>
+          </div>
+          <Article></Article>
         </div>
       </div>
     </div>
@@ -429,8 +316,11 @@ definePageMeta({
 }
 .outer {
   position: relative;
-
-  /* background: linear-gradient(rgba(0, 0, 0, 0.9), black); */
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 40%,
+    rgba(0, 0, 0, 1) 100%
+  );
 }
 .head-container {
   position: relative;
@@ -439,16 +329,28 @@ definePageMeta({
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+  justify-content: center;
 }
-.position-cover {
+.position-cover a {
   display: flex;
   align-items: row;
+  overflow: hidden;
+  width: 100%;
+  border-radius: 4%;
 }
 .position-cover .cover-img {
   width: 446px;
   height: 446px;
   margin: 0;
   object-fit: cover;
+}
+.position-cover img {
+  transition: 0.2s all ease-in-out;
+}
+.position-cover:hover img {
+  transform: scale(1.09);
+}
+.position-cover .cover-img:hover {
   border-radius: 4%;
 }
 .head-container .content {
@@ -499,40 +401,14 @@ definePageMeta({
   font-size: 34px;
   font-weight: 700;
 }
-.head-container .content .author {
-  position: relative;
-  color: white;
-  display: flex;
-  flex-direction: row;
-}
-.content .author .author-img {
-  height: 44px;
-  width: 44px;
-  border-radius: 50%;
-}
-.head-container .content .author .prof {
-  display: flex;
-  flex-direction: column;
-  margin-right: 44px;
-  font-size: 12.6px;
-}
-.head-container .content .author .prof a {
-  font-weight: 700;
-  text-decoration: none;
-  color: white;
-  border-radius: solid 1px white;
-  opacity: 0.3;
-}
-.content .author .prof a:hover {
-  color: #fff;
-}
 .container .editors-choice {
-  background-color: black;
+  margin: 0;
   height: 327px;
-  border: solid 1px rgb(218, 214, 214);
+  background-color: black;
 }
-/* .container .editors-choice .head p {
-  margin: 30px 0;
+.container .editors-choice .head p {
+  padding: 30px 0;
+  margin: auto;
   color: #fff;
   display: flex;
   align-items: center;
@@ -541,36 +417,60 @@ definePageMeta({
   font-weight: 500;
 }
 .container .head {
+  position: relative;
   height: 85px;
   margin: 0 127px;
   padding: 0 35px;
-  border: solid 1px rgb(218, 214, 214);
+  display: flex;
+  justify-content: flex-start;
 }
-.head-container .editors-slider {
+.container .editors-choice .slider {
   padding: 20px 20px 97px 20px;
-} */
-/* .editors-slider .slider li {
-  position: absolute;
-  width: 275px;
-  height: 365px;
-  margin-left: 28px;
-  border: solid 1px rgb(212, 207, 207);
-  z-index: 1;
-  border-radius: 3px;
+  margin: 0;
 }
-.editors-slider .slider li {
+.container .editors-choice .slider ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 365px;
+  list-style: none;
+}
+.editors-choice .slider li {
   width: 247px;
   height: 365px;
+  margin-left: 28px;
+  z-index: 1;
   border-radius: 5px;
-  background-image: fit;
-  object-fit: fit;
-} */
+}
+.editors-choice .slider img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+  margin: 0;
+}
+.editors-choice .slider li .caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  color: white;
+  box-sizing: border-box;
+  height: 92px;
+  padding: 10px 23px;
+
+  border-radius: 10px;
+  float: left;
+}
 .container-center {
   background-color: #fafafa;
+  margin-top: 230px;
 }
 .container-article {
-  margin: 0 127px;
+  margin: 0 127px auto;
   padding: 0 35px;
+  position: relative;
 }
 .container-center .article1 {
   height: 236px;
@@ -578,7 +478,7 @@ definePageMeta({
   flex-direction: column;
 }
 .container-center .author {
-  position: relative;
+  position: fixed;
   color: black;
   display: flex;
   flex-direction: row;
@@ -610,67 +510,6 @@ definePageMeta({
 .container-center .author .prof p:hover {
   transform: translate(0, -5px);
   transition: all 0.2s ease-in-out;
-}
-.container-center .content {
-  width: 623px;
-  padding: 28px 65px 20px 51px;
-  margin: 13px 0 0 0;
-  background-color: #fff;
-  color: black;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
-  border-radius: 0 27px 27px 27px;
-  letter-spacing: 0.015rem;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-}
-.container-center .content .title {
-  text-decoration: none;
-}
-.container-center .content:hover {
-  transform: translate(0, -5px);
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  transition: all 0.2s ease-in-out;
-}
-/* .container-center .author:hover {
-  transform: translate(0, -5px);
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  transition: all 0.2s ease-in-out;
-} */
-.container-center .content h6 > a {
-  color: #0078f6;
-  font-size: 12.6px;
-  text-decoration: none;
-  letter-spacing: 0.03rem;
-  font-weight: 550;
-}
-.container-center .content h6::before {
-  content: "•";
-  font-size: 1.8rem;
-  position: absolute;
-  display: flex;
-  align-items: center;
-  margin-left: -24px;
-  color: #0078f6;
-}
-.container-center .content h3 {
-  font-size: 21.6px;
-  margin-bottom: 15px;
-  font-weight: 600;
-  line-height: 1.7rem;
-}
-.container-center .content h3 > a {
-  padding-right: 180px;
-  text-decoration: none;
-  color: black;
-}
-.container-center .content .article-img img {
-  width: 135px;
-  height: 135px;
-  border-radius: 50%;
-  display: flex;
-  justify-self: flex-end;
 }
 
 .container-article .article1:nth-child(even) .author {

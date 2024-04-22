@@ -2,6 +2,7 @@
   <div class="author">
     <a href=""
       ><img
+        class="author-img"
         src="https://unread.today/files/profile/00b063d23a6c69f2b1482fa084fddbf5.jpg"
         alt=""
     /></a>

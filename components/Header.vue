@@ -61,12 +61,13 @@ export default {};
   display: flex;
   flex-direction: column;
   z-index: 1;
+  justify-content: center;
 }
 .header {
   position: absolute;
   display: flex;
   align-items: center;
-  /* justify-content: space-around; */
+  justify-content: center;
   position: relative;
   margin: 0px 45px 0 45px;
   padding: 24px 0 19px 0;
